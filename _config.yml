@@ -1,0 +1,25 @@
+title: Cars
+email: ghotda@mail.bg
+description: >- # this means to ignore newlines until "baseurl:"
+    Short and Fast!
+baseurl: "/jekyll-cars" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+destination: "docs"
+
+twitter_username: Ghotda
+github_username:  Ghotda
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .gitignore
+  - scss
+  - gulpfile.js
+  - package.json
+  - package-lock.jso
