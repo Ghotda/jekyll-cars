@@ -1,0 +1,41 @@
+header{
+    background-image: url("../img/home-img.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 500px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+header .logo {
+    margin: 0;
+    text-align: center;
+    background: rgba(253, 253, 253, 0.8);
+    padding-right: 2em;
+}
+header .logo span{
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-size: 24px;
+    background: #0074D9;
+    border: 2px solid #0074D9;
+    padding: 0.2em;
+    border-top-left-radius: 0.6em;
+    border-bottom-right-radius: 0.6em;
+}
+.logo span:nth-child(1){
+    background: #FF4136;
+    border: 2px solid #FF4136;
+}
+header p span:not(:nth-child(1)){
+    margin-left: -0.2em;
+}
+
+.logo{
+   padding: 1em 0 1.3em 0;
+}

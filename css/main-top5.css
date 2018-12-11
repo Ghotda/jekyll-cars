@@ -1,0 +1,184 @@
+.grid-about{
+    display: grid;
+    grid-gap: 0.2rem;
+    grid-template-columns: repeat(15,3rem);
+    grid-template-rows: repeat(70,3rem);
+    justify-content: center;
+    height: 100%;
+}
+.grid-about > *{
+    color: black;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+}
+.top5-head{
+    padding-top: 1.5rem;
+    grid-column: 5/12;
+    grid-row: 1/3;
+    font-size: 24px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.grid-about .grid-img{
+    background-image: url("../cars/05.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-column: 2/15;
+    grid-row: 3/11;
+}
+.grid-about .grid-text{
+    background: grey;
+    padding: 1rem;
+    grid-column: 2/15;
+    grid-row: 11 / 14;
+    padding-top: 1.5rem;
+}
+.grid-about .num{
+    display: grid;
+    background: rgb(0, 66, 126);
+    grid-column: 13/15;
+    grid-row: 3/5;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    border-bottom-left-radius: 0.2rem;
+    color: white;
+    padding-top: 1rem;
+    font-size: 44px;
+    justify-content: center;
+    
+}
+.grid-about p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+
+
+.grid-about .grid-img4{
+    background-image: url("../cars/04.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-column: 2/15;
+    grid-row: 17/25;
+}
+.grid-about .grid-text4{
+    background: grey;
+    padding: 1rem;
+    grid-column: 2/15;
+    grid-row: 25 / 28;
+    padding-top: 1.5rem;
+}
+.grid-about .num4{
+    display: grid;
+    background: rgb(0, 66, 126);
+    grid-column: 13/15;
+    grid-row: 17/19;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    border-bottom-left-radius: 0.2rem;
+    color: white;
+    padding-top: 1rem;
+    font-size: 44px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.grid-about .grid-img3{
+    background-image: url("../cars/03.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-column: 2/15;
+    grid-row: 31/39;
+}
+.grid-about .grid-text3{
+    background: grey;
+    padding: 1rem;
+    grid-column: 2/15;
+    grid-row: 39 / 42;
+    padding-top: 1.5rem;
+}
+.grid-about .num3{
+    display: grid;
+    background: rgb(0, 66, 126);
+    grid-column: 13/15;
+    grid-row: 31/33;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    border-bottom-left-radius: 0.2rem;
+    color: white;
+    padding-top: 1rem;
+    font-size: 44px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.grid-about .grid-img2{
+    background-image: url("../cars/02.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-column: 2/15;
+    grid-row: 45/53;
+}
+.grid-about .grid-text2{
+    background: grey;
+    padding: 1rem;
+    grid-column: 2/15;
+    grid-row: 53 / 56;
+    padding-top: 1.5rem;
+}
+.grid-about .num2{
+    display: grid;
+    background: rgb(0, 66, 126);
+    grid-column: 13/15;
+    grid-row: 45/47;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    border-bottom-left-radius: 0.2rem;
+    color: white;
+    padding-top: 1rem;
+    font-size: 44px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.grid-about .grid-img1{
+    background-image: url("../cars/01.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-column: 2/15;
+    grid-row: 59/67;
+}
+.grid-about .grid-text1{
+    background: grey;
+    padding: 1rem;
+    grid-column: 2/15;
+    grid-row: 67 / 70;
+    padding-top: 1.5rem;
+}
+.grid-about .num1{
+    display: grid;
+    background: rgb(0, 66, 126);
+    grid-column: 13/15;
+    grid-row: 59/61;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    border-bottom-left-radius: 0.2rem;
+    color: white;
+    padding-top: 1rem;
+    font-size: 44px;
+    justify-content: center;
+    font-weight: bold;
+}
