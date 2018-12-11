@@ -33,7 +33,7 @@
     font-size: 18px;
     font-weight: 400
 }
-.desc .count, p:not(.num){
+.desc .count, .desc p:not(.num){
     padding-left: 2rem;
 }
 .num {
