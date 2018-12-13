@@ -122,7 +122,7 @@
 
 
 .grid-about .grid-img2{
-    background-image: url("../cars/02.JPG");
+    background-image: url("../cars/02.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -153,7 +153,7 @@
 }
 
 .grid-about .grid-img1{
-    background-image: url("../cars/01.JPG");
+    background-image: url("../cars/01.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
