@@ -69,3 +69,18 @@
     border-radius: 6px;
     box-shadow: 0px 0px 47px -4px rgba(0,0,0,0.64);
 }
+@media screen and (max-width: 640px){
+    #top15 section{
+        padding: 0;
+    }
+    .desc .num{
+        padding: 0;
+    }
+    #top15{
+        padding-bottom: 2rem;
+    }
+    .desc p:last-of-type{
+        font-size: 14px;
+        padding-bottom: 0.5rem;
+    }
+}
