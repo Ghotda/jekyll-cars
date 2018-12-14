@@ -67,7 +67,7 @@ main{
 @media screen and (max-width: 768px){
     main{
         margin: 0;
-        padding-bottom: 13em;
+        padding-bottom: 12em;
     }
 }
 @media screen and (max-width: 768px){
@@ -83,4 +83,20 @@ main{
         letter-spacing: 1.5rem;
     }
     
+}
+@media screen and (max-width: 480px){
+    body header .logo{
+        padding-right: 0;
+    }
+    .navbar{
+        padding:0.5em 0 0.7em 0;
+        font-size: 14px;
+    }
+    main .welcome .b{
+        text-align: center;
+    }
+    .sign p{
+        padding-right: 2rem;
+        font-size: 16px
+    }
 }

@@ -37,3 +37,11 @@
         padding-right: 3rem;
     }
 }
+@media screen and (max-width: 480px){
+    .contacts{
+        padding: 0;
+    }
+    .contacts section{
+        padding-right: 0;
+    }
+}

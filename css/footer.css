@@ -59,3 +59,11 @@ i:hover{
     }
    
 }
+@media screen and (max-width: 480px){
+    .left li:first-of-type{
+        margin-left: 0;
+    }
+    .right li:last-of-type{
+        margin-right: 0;
+    }
+}

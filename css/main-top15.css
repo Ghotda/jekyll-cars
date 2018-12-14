@@ -84,3 +84,15 @@
         padding-bottom: 0.5rem;
     }
 }
+@media screen and (max-width: 480px){
+    #top15 section img{
+        box-shadow: none;
+    }
+    #top15 section .desc .num span{
+        padding: 0;
+        margin-bottom: 0.5rem
+    }
+    #top15 section .desc p:last-of-type{
+        padding-bottom: 1rem;
+    }
+}
