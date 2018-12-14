@@ -182,3 +182,11 @@
     justify-content: center;
     font-weight: bold;
 }
+@media screen and (max-width: 640px){
+    .grid-about{
+        grid-template-columns: repeat(16,3rem);
+    }
+    .grid-about div{
+        margin-left: 2rem
+    }
+}
