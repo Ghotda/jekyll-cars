@@ -1,3 +1,19 @@
 .contacts{
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts section i{
+    background: rgb(0, 77, 94);
+    font-size: 34px;
+    color: white
+}
+.contacts section{
+    text-align: center;
+    padding: 1.5em 3em 1.5em 3em;
+}
+.contacts section div p:nth-of-type(1){
+    font-size: 24px;
+    font-weight: bold;
 }

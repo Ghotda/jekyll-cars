@@ -52,3 +52,10 @@ i:hover{
     cursor: pointer;
     color: white;
 }
+
+@media screen and (max-width: 640px){
+    .nav-footer{
+        margin: 0;
+    }
+   
+}

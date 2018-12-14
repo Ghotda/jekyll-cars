@@ -64,3 +64,23 @@ main{
 .social p:first-of-type{
     padding-left: 0;
 }
+@media screen and (max-width: 768px){
+    main{
+        margin: 0;
+        padding-bottom: 13em;
+    }
+}
+@media screen and (max-width: 768px){
+    .welcome .a{
+        padding: 2em 0 2em 0;
+        margin: 0 0 0 1em;
+    }
+}
+@media screen and (max-width: 640px){
+    .welcome .a{
+        padding: 1.5em 0 1.5em 0;
+        margin: 0 0 0 0.5em;
+        letter-spacing: 1.5rem;
+    }
+    
+}
