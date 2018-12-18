@@ -83,6 +83,9 @@
         font-size: 14px;
         padding-bottom: 0.5rem;
     }
+    .top15-head h2,h4{ 
+        margin-left: 0;
+    }
 }
 @media screen and (max-width: 560px){
     #top15 section img{
@@ -94,5 +97,13 @@
     }
     #top15 section .desc p:last-of-type{
         padding-bottom: 1rem;
+    }
+    .top15-head h2,h4{ 
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 390px){
+    .top15-head h2,h4{ 
+        margin-left: 0;
     }
 }

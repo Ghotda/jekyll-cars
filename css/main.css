@@ -108,6 +108,7 @@ main{
     }
     .navbar{
         font-size: 12px;
+        padding: 0.8em 0 1em 0;
     }
     .border{
         width: 15em;
