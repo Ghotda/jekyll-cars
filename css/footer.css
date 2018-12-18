@@ -59,11 +59,21 @@ i:hover{
     }
    
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 560px){
     .left li:first-of-type{
         margin-left: 0;
     }
     .right li:last-of-type{
         margin-right: 0;
+    }
+}
+@media screen and (max-width: 390px){
+    .nav-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left li:first-of-type{
+        margin-left: 1em;
     }
 }

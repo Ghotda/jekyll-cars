@@ -84,7 +84,7 @@ main{
     }
     
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 560px){
     body header .logo{
         padding-right: 0;
     }
@@ -98,5 +98,27 @@ main{
     .sign p{
         padding-right: 2rem;
         font-size: 16px
+    }
+}
+@media screen and (max-width: 390px){
+    main .welcome .a{
+        font-size: 20px;
+        padding: 4em 0 5em 0;
+        font-weight: bold;
+    }
+    .navbar{
+        font-size: 12px;
+    }
+    .border{
+        width: 15em;
+    }
+    main .welcome .b{
+        font-size: 18px
+    }
+    .sign{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 1em;
     }
 }

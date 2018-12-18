@@ -37,11 +37,22 @@
         padding-right: 3rem;
     }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 560px){
     .contacts{
         padding: 0;
     }
     .contacts section{
         padding-right: 0;
+    }
+}
+@media screen and (max-width: 390px){
+    .contacts section{
+        font-size: 14px;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10em 0 10em 0
     }
 }
